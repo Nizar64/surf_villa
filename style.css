@@ -50,7 +50,7 @@ section {
   z-index: 10;
   display: flex;
   height: 10vh;
-  width: 100%;
+  width: 100vw;
   justify-content: space-around;
   align-items: center;
   background-image: linear-gradient(to right bottom, #f5d410, #fff);
@@ -196,7 +196,7 @@ section {
   left: -10%;
   object-fit: cover;
   width: 50%;
-  height: 50%;
+  height: 44%;
 }
 
 .text-section-about-us-container {
@@ -224,7 +224,7 @@ section {
 }
 
 .big-text-section-about-us {
-  height: 120vh;
+  height: 130vh;
   background-color: #f5d410;
 }
 
@@ -259,6 +259,7 @@ section {
 .section-about-villa {
   margin-top: 600px;
   margin-bottom: 200px;
+  margin-top: 45%;
 }
 
 .text-img-container-about-villa {
@@ -293,8 +294,8 @@ section {
 
 .img2-section-about-villa {
   object-fit: cover;
-  height: 350px;
-  width: 850px;
+  height: 366px;
+  width: 1016px;
 }
 
 .img-and-text-section-about-villa-container {
@@ -313,7 +314,8 @@ section {
   padding: 100px;
   color: white;
   font-size: 13rem;
-  line-height: 120%;
+  line-height: 62%;
+  width: 800px;
 }
 
 .img2-section-about-villa-container {
@@ -708,11 +710,26 @@ footer {
 .icons {
   width: 50px;
 }
-
+@media screen and (max-width: 1000px) {
+  .logo {
+    width: 300px;
+    height: 200px;
+}
+.welcome-text-section-about-villa {
+  margin: 30px 0px;
+  text-align: center;
+  padding: 0px;
+  font-size: 5rem;
+}
+}
 @media screen and (min-width: 1401px) and (max-width: 1780px) {
   /* .header {
     display: none;
   } */
+  .logo {
+    width: 355px;
+    height: 294px;
+}
   .section-hello {
     height: auto;
   }
@@ -729,6 +746,14 @@ footer {
     position: static;
   }
 
+  .img1-section-about-us {
+    position: absolute;
+    left: -10%;
+    object-fit: cover;
+    width: 50%;
+    height: 106%;
+  }
+
   .text-ml50 {
     margin-left: 0px;
     padding-top: 50px;
@@ -737,7 +762,7 @@ footer {
   .wonderful-big-text-section-about-us {
     padding: 0px 40px;
     font-size: 15rem;
-    text-align: center;
+    /* text-align: center; */
   }
 
   .img2-section-about-us-container {
@@ -746,16 +771,19 @@ footer {
 
   .img2-section-about-us {
     position: static;
-    margin: 0px 25%;
+    /* margin: 0px 25%; */
+    margin-left: 50%;
+    margin-top: -15%;
+
   }
 
   .section-about-villa {
-    margin: 0;
+    margin-top: 20%;
   }
 
   .welcome-text-section-about-villa {
     font-size: 11rem;
-    line-height: 105%;
+    line-height: 87%;
   }
 
   .nb-section-surf-camp,
@@ -915,11 +943,12 @@ footer {
   }
 
   .welcome-text-section-about-villa {
-    margin: 30px 0px;
+    margin: 60px -2px;
     text-align: center;
     padding: 0px;
     font-size: 5rem;
-  }
+    width: 80%;
+}
 
   .img2-section-about-villa {
     position: static;

@@ -134,7 +134,7 @@
             <div class="img-and-text-section-about-villa-container">
                 <img class="img1-section-about-villa" src="./assets/photos/img1_section_about_villa.jpg"
                     alt="Brahim Iddouch">
-                <p class="welcome-text-section-about-villa">You are welcome in my house</p>
+                <p class="welcome-text-section-about-villa">you are welcome in my house</p>
             </div>
         </div>
         <div class="img2-section-about-villa-container">
