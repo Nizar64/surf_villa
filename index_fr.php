@@ -8,31 +8,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./style_fr.css">
+    <link rel="stylesheet" href="./style_en.css">
     <title>Surf Villa</title>
 </head>
 
 <body>
+    <img id="arrow-up" src="./assets/icons/arrow-up.png" alt="">
+    <img id="img-burger-menu" src="./assets/icons/burger.png" alt="burger menu">
     <header class="header" id="navbar">
-        <div class="dropdown">
+        <div class="dropdown" id="dd1">
             <p class="dropbtn">A VILLA</p>
-            <div class="dropdown-content">
+            <div class="dropdown-content" id="ddc1">
                 <a href="#section-about-us">ABOUT US</a>
                 <a href="#section-about-villa">ABOUT VILLA</a>
                 <a href="#section-location">LOCATION</a>
             </div>
         </div>
-        <div class="dropdown">
+        <div class="dropdown" id="dd2">
             <p class="dropbtn">PACKAGES</p>
-            <div class="dropdown-content">
+            <div class="dropdown-content" id="ddc2">
                 <a href="#section-surf-camp">SURF CAMPS</a>
                 <a href="#surf-and-stay">SURF & STAY</a>
                 <a href="#surf-guiding">SURF GUIDING</a>
             </div>
         </div>
-        <a href="#adventures" class="dropbtn">ADVENTURES</p>
-            <a href="#formulaire" class="dropbtn">ACCOMODATION</a>
-            <a href="#contact" class="dropbtn">CONTACTS</a>
+        <a href="#adventures">ADVENTURES</p>
+            <a href="#formulaire">ACCOMODATION</a>
+            <a href="#contact">CONTACTS</a>
             <div class="language-container" id="languages-desktop">
                 <a class="lg-en" href="index.php">EN</a>
                 <p>|</p>
@@ -40,15 +42,15 @@
                 <p>|</p>
                 <a class="lg-es" href="index_es.php">ES</a>
             </div>
-            <div class="dropdown" id="languages-phone">
-                <p class="dropbtn">LANGUAGES</p>
-                <div class="dropdown-content">
+            <div id="languages-phone">
+                <div id="ddc3">
                     <a class="lg-en" href="index.php">EN</a>
+                    <p>|</p>
                     <a class="lg-fr" href="index_fr.php">FR</a>
+                    <p>|</p>
                     <a class="lg-es" href="index_es.php">ES</a>
                 </div>
             </div>
-
     </header>
 
     <div class="logo-container">
@@ -76,17 +78,17 @@
 
     <section class="section-hello">
         <div class="infos-section-hello">
-            <h2 class="title-section-hello">Bonjour</h2>
+            <h2 class="title-section-hello">Hello</h2>
             <p class="text-section-hello">
-                Are you looking to plan the perfect surf vacation? Surf Villa might be what your are looking for! 
-                Stay with us and we will provide you the best surf experience, daily adventures, awesome accommodation, 
-                delicious food from our chef and much more. Our team will help you to catch your first wave if you are a 
+                Are you looking to plan the perfect surf vacation? Surf Villa might be what your are looking for!
+                Stay with us and we will provide you the best surf experience, daily adventures, awesome accommodation,
+                delicious food from our chef and much more. Our team will help you to catch your first wave if you are a
                 beginner or guide you to the best spots in Morocco if you are already a word champion.
-                Here at Surf Villa your happiness is our main priority and we aim is to make your surf trip in Morocco 
-                an unforgettable experience. Morocco is our home and we are happy to introduce you to its rich culture. 
-                By staying with locals you will have the benefit of being part of the best and most authentic experiences. 
-                We host groups and individual travelers in our large yet cozy villa, providing surf lessons and surf guiding for all levels, 
-                organising daily activities and trips around the Agadir area. You can join our scheduled surf camps or just come with your 
+                Here at Surf Villa your happiness is our main priority and we aim is to make your surf trip in Morocco
+                an unforgettable experience. Morocco is our home and we are happy to introduce you to its rich culture.
+                By staying with locals you will have the benefit of being part of the best and most authentic experiences.
+                We host groups and individual travelers in our large yet cozy villa, providing surf lessons and surf guiding for all levels,
+                organising daily activities and trips around the Agadir area. You can join our scheduled surf camps or just come with your
                 friends anytime and we will make a tailored plan specially for you.
                 Feel free to contact us and we hope to see you soon!
             </p>
@@ -324,6 +326,8 @@
             </a>
         </div>
     </footer>
+
+    <script src="./main.js"></script>
 </body>
 
 </html>
