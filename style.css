@@ -58,6 +58,7 @@ section {
   border: 2px solid black;
   border-radius: 50%;
   cursor: pointer;
+  display: none;
 }
 
 .header {
@@ -67,7 +68,7 @@ section {
   width: 100%;
   justify-content: space-around;
   align-items: center;
-  background-image: linear-gradient(to right bottom, #f5d410, #fff);
+  /* background-image: linear-gradient(to right bottom, #f5d410, #fff); */
   position: fixed;
   top: 0;
 }
@@ -214,7 +215,7 @@ section {
   left: -10%;
   object-fit: cover;
   width: 50%;
-  height: 50%;
+  height: 99%;
 }
 
 .text-section-about-us-container {
@@ -748,13 +749,13 @@ footer {
   }
 
   .text-ml50 {
-    margin-left: 0px;
-    padding-top: 50px;
+    margin-left: 10%;
+    /* padding-top: 50px; */
   }
 
   .wonderful-big-text-section-about-us {
-    padding: 0px 40px;
-    font-size: 15rem;
+    padding: 20px 80px;
+    font-size: 17rem;
     text-align: center;
   }
 
@@ -803,12 +804,24 @@ footer {
     margin-left: 40%;
   }
 }
-
+@media screen and (max-width: 700px){
+  /* .logo{
+    width: 300px;
+    height: 222px;
+  } */
+  .logo {
+    margin-top: 30%;
+    margin-bottom: 30%;
+  }
+}
 @media screen and (max-width: 1400px) {
   section {
     margin-bottom: 50px;
   }
-
+  .logo {
+    margin-top: 30%;
+    margin-bottom: 30%;
+  }
   #img-burger-menu {
     display: block;
     background-image: linear-gradient(to right bottom, #f5d410, white, white);
@@ -821,6 +834,7 @@ footer {
     width: 60px;
     left: 78%;
     top: 89%;
+    display: none;
   }
 
   #arrow-up {

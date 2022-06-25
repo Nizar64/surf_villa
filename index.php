@@ -85,12 +85,7 @@
                 delicious food from our chef and much more. Our team will help you to catch your first wave if you are a
                 beginner or guide you to the best spots in Morocco if you are already a word champion.
                 Here at Surf Villa your happiness is our main priority and we aim is to make your surf trip in Morocco
-                an unforgettable experience. Morocco is our home and we are happy to introduce you to its rich culture.
-                By staying with locals you will have the benefit of being part of the best and most authentic experiences.
-                We host groups and individual travelers in our large yet cozy villa, providing surf lessons and surf guiding for all levels,
-                organising daily activities and trips around the Agadir area. You can join our scheduled surf camps or just come with your
-                friends anytime and we will make a tailored plan specially for you.
-                Feel free to contact us and we hope to see you soon!
+                an unforgettable experience.
             </p>
             <p class="signature-section-hello">brahim iddouch</p>
         </div>
